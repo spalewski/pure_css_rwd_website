@@ -1,0 +1,233 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 18px;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+a {
+  color: #fff;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.blocked {
+  cursor: not-allowed;
+}
+
+/* NAVIGATION START */
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: #4e4e4e;
+}
+
+nav .container, footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+
+nav a {
+  color: #f1f1f1;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 26%;
+}
+
+.nav-links a:last-of-type {
+  margin: 0;
+}
+
+/* NAVIGATION END */
+
+/* LINKS START */
+
+a:link {
+  text-decoration: none;
+}
+
+.about,
+.offer {
+  padding: 50px, 0;
+}
+
+/* LINKS END */
+
+/* LANDING PAGE START */
+
+.landing-page {
+  height: 100vh;
+  background-image: url("https://picsum.photos/800/600");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.landing-page-shadow {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.landing-page-shadow .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 38%;
+  align-items: flex-start;
+}
+
+.landing-page h1,
+.landing-page p {
+  width: 60%;
+}
+
+.landing-page-btn {
+  border: 3px solid #fff;
+  padding: 8px 30px;
+  transition: 1s all;
+}
+
+.landing-page-btn:hover {
+  background-color: #fff;
+  color: #000000;
+}
+
+/* LANDING PAGE END */
+
+/* ABOUT SECTION START */
+
+.about {
+  background-color: #f1f1f1;
+  padding: 2.5% 0 2.5%;
+}
+
+.about h1 {
+  color: #152d41;
+}
+
+.about-employee {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-employee:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.about-employee:nth-of-type(even) .about-employee-desc {
+  text-align: right;
+}
+
+.about-employee-pic {
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-image: url("https://picsum.photos/200/200");
+  background-size: cover;
+  background-position: center;
+}
+
+.about-employee-desc {
+  width: calc(100% - 260px);
+}
+
+.about-employee-desc h2 {
+  margin-bottom: 10px;
+}
+
+.about .about-employee:first-of-type {
+  padding: 7.3% 0 0 0;
+}
+
+/* ABOUT SECTION END */
+
+/* OFFER SECTION START */
+
+.offer {
+  background-color: #405d78;
+  padding: 2.5% 0 2.5% 0;
+}
+
+.offer h1 {
+  color: #fff;
+}
+
+.offer h3 {
+  font-size: 24px;
+}
+
+.offer-description {
+  width: 720px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #405d78;
+  padding: 10% 0 7.5%;
+  gap: 68px 68px;
+}
+
+.grid-item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 198px;
+  height: 198px;
+  background-color: #f1f1f1;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item p {
+    font-size: 18px;
+    color: #000000;
+
+}
+
+.grid-item:hover {
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+}
+
+footer {
+  width: 100%;
+  background-color: #4e4e4e;
+}
+
+footer p {
+  color: #fff;
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+}
