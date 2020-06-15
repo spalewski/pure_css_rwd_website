@@ -14,8 +14,7 @@ p {
   font-size: 18px;
 }
 
-h1,
-h2 {
+h1, h2 {
   font-weight: bold;
 }
 
@@ -30,6 +29,14 @@ a {
 
 .blocked {
   cursor: not-allowed;
+}
+
+.about, .offer {
+  padding: 50px, 0;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 /* NAVIGATION START */
@@ -62,19 +69,6 @@ nav a {
 }
 
 /* NAVIGATION END */
-
-/* LINKS START */
-
-a:link {
-  text-decoration: none;
-}
-
-.about,
-.offer {
-  padding: 50px, 0;
-}
-
-/* LINKS END */
 
 /* LANDING PAGE START */
 
@@ -172,9 +166,6 @@ a:link {
     background-image: url("../img/photo3.jpg");
 }
 
-
-
-
 .about-employee-desc {
   width: calc(100% - 260px);
 }
@@ -237,15 +228,26 @@ a:link {
     transition-duration: 0.5s;
 }
 
+/* OFFER SECTION END */
+
+/* FOOTER START */
+
 footer {
   width: 100%;
   background-color: #4e4e4e;
 }
 
 footer p {
-  color: #fff;
+  color: #FFF;
   font-size: 18px;
 }
 
-@media (min-width: 768px) {
+.footer-links {
+  color: #FFF;
 }
+
+.footer-links i{
+  margin-left: 25.75px;
+} 
+
+/* FOOTER END */
