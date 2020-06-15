@@ -80,7 +80,7 @@ a:link {
 
 .landing-page {
   height: 100vh;
-  background-image: url("https://picsum.photos/800/600");
+  background-image: url("../img/beach.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -152,10 +152,28 @@ a:link {
   height: 200px;
   flex-shrink: 0;
   border-radius: 50%;
-  background-image: url("https://picsum.photos/200/200");
   background-size: cover;
   background-position: center;
 }
+
+.about-employee-pic--0 {
+    background-image: url("../img/photo0.jpg");
+}
+
+.about-employee-pic--1 {
+    background-image: url("../img/photo1.jpg");
+}
+
+.about-employee-pic--2 {
+    background-image: url("../img/photo2.jpg");
+}
+
+.about-employee-pic--3 {
+    background-image: url("../img/photo3.jpg");
+}
+
+
+
 
 .about-employee-desc {
   width: calc(100% - 260px);
