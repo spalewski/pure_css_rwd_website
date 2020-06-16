@@ -58,6 +58,11 @@ nav a {
   color: #f1f1f1;
 }
 
+.nav-logo {
+  color: #FFF;
+  font-weight: bold;
+}
+
 .nav-links {
   display: flex;
   justify-content: space-between;
