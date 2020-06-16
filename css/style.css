@@ -212,7 +212,7 @@ nav a {
   grid-template-columns: 1fr 1fr 1fr;
   background-color: #405d78;
   padding: 10% 0 7.5%;
-  gap: 68px 68px;
+  gap: 63px 63px;
 }
 
 .grid-item {
