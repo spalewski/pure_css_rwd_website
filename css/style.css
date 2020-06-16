@@ -32,7 +32,7 @@ a {
 }
 
 .about, .offer {
-  padding: 50px, 0;
+  padding: 50px 0;
 }
 
 a:link {
@@ -136,6 +136,11 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.about-employee:last-of-type {
+  margin-bottom: 0;
 }
 
 .about-employee:nth-of-type(even) {
@@ -220,6 +225,7 @@ nav a {
   font-size: 30px;
   justify-content: center;
   align-items: center;
+  transition-duration: 0.5s;
 }
 
 .grid-item p {
