@@ -14,7 +14,8 @@ p {
   font-size: 18px;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: bold;
 }
 
@@ -31,7 +32,8 @@ a {
   cursor: not-allowed;
 }
 
-.about, .offer {
+.about,
+.offer {
   padding: 50px 0;
 }
 
@@ -47,7 +49,8 @@ nav {
   background-color: #4e4e4e;
 }
 
-nav .container, footer .container {
+nav .container,
+footer .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -59,7 +62,7 @@ nav a {
 }
 
 .nav-logo {
-  color: #FFF;
+  color: #fff;
   font-weight: bold;
 }
 
@@ -161,19 +164,19 @@ nav a {
 }
 
 .about-employee-pic--0 {
-    background-image: url("../img/photo0.jpg");
+  background-image: url("../img/photo0.jpg");
 }
 
 .about-employee-pic--1 {
-    background-image: url("../img/photo1.jpg");
+  background-image: url("../img/photo1.jpg");
 }
 
 .about-employee-pic--2 {
-    background-image: url("../img/photo2.jpg");
+  background-image: url("../img/photo2.jpg");
 }
 
 .about-employee-pic--3 {
-    background-image: url("../img/photo3.jpg");
+  background-image: url("../img/photo3.jpg");
 }
 
 .about-employee-desc {
@@ -215,6 +218,16 @@ nav a {
   gap: 63px 63px;
 }
 
+.offer-boxes-item-dot {
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+}
+
 .grid-item {
   display: flex;
   flex-wrap: wrap;
@@ -229,14 +242,13 @@ nav a {
 }
 
 .grid-item p {
-    font-size: 18px;
-    color: #000000;
-
+  font-size: 18px;
+  color: #000000;
 }
 
 .grid-item:hover {
-    transform: scale(1.5);
-    transition-duration: 0.5s;
+  transform: scale(1.5);
+  transition-duration: 0.5s;
 }
 
 /* OFFER SECTION END */
@@ -249,16 +261,16 @@ footer {
 }
 
 footer p {
-  color: #FFF;
+  color: #fff;
   font-size: 18px;
 }
 
 .footer-links {
-  color: #FFF;
+  color: #fff;
 }
 
-.footer-links i{
+.footer-links i {
   margin-left: 25.75px;
-} 
+}
 
 /* FOOTER END */
