@@ -51,8 +51,6 @@ nav a {
   margin: 0;
 }
 
-
-
 /* MOBILE MENU START */
 
 .wrapper {
@@ -61,7 +59,7 @@ nav a {
   color: white;
   text-align: center;
   height: 40px;
-  font-family: 'Arial';
+  font-family: "Arial";
 }
 
 #check-menu {
@@ -87,10 +85,11 @@ label {
   width: 35px;
   height: 2px;
   background-color: #fff;
-  transition: .5s all
+  transition: 0.5s all;
 }
 
-.second, .third {
+.second,
+.third {
   top: 18px;
 }
 
@@ -108,7 +107,7 @@ label {
   transform: translateY(100%);
   font-size: 0;
   overflow: hidden;
-  transition: .5s all
+  transition: 0.5s all;
 }
 
 a {
