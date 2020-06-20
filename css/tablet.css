@@ -5,6 +5,10 @@
     width: 26%;
   }
 
+  .nav-links a {
+      white-space: nowrap;
+  }
+
   nav .wrapper {
   display: none;
 }
@@ -32,6 +36,7 @@
 
   .about-employee-desc {
     width: calc(100% - 260px);
+    text-align: left;
   }
 
   .about-employee:nth-of-type(even) {
@@ -45,8 +50,6 @@
   .offer-description {
     width: 90%;
     grid-template-columns: 1fr 1fr;
-    background-color: #405d78;
-    padding: 10% 0 7.5%;
     gap: 63px 63px;
   }
 
