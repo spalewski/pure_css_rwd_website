@@ -5,6 +5,10 @@
     width: 26%;
   }
 
+  nav .wrapper {
+  display: none;
+}
+
   .container {
     width: 90%;
   }
