@@ -47,11 +47,23 @@
     text-align: right;
   }
 
+  .offer h1 {
+    padding: 3% 0%;
+    color: #fff;
+    font-size: 36px;
+}
+
   .offer-description {
     width: 90%;
     grid-template-columns: 1fr 1fr;
     gap: 63px 63px;
+    padding: 5% 0 7.5%;
   }
+
+  .offer-boxes-item-dot {
+    width: 22px;
+    height: 22px;
+}
 
   .grid-item {
     width: 268px;
