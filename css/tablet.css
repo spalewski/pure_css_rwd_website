@@ -9,8 +9,21 @@
     width: 90%;
   }
 
+  .landing-page-shadow .container {
+    height: 38%;
+  }
+
+  .landing-page h1,
+  .landing-page p {
+    width: 60%;
+  }
+
   .about-employee {
     flex-direction: row;
+  }
+
+  .about-employee-desc p {
+    padding: 0 0 0 0;
   }
 
   .about-employee-desc {
