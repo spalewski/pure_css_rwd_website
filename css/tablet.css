@@ -1,0 +1,45 @@
+@media (min-width: 768px) {
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 26%;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .about-employee {
+    flex-direction: row;
+  }
+
+  .about-employee-desc {
+    width: calc(100% - 260px);
+  }
+
+  .about-employee:nth-of-type(even) {
+    flex-direction: row-reverse;
+  }
+
+  .about-employee:nth-of-type(even) .about-employee-desc {
+    text-align: right;
+  }
+
+  .offer-description {
+    width: 90%;
+    grid-template-columns: 1fr 1fr;
+    background-color: #405d78;
+    padding: 10% 0 7.5%;
+    gap: 63px 63px;
+  }
+
+  .grid-item {
+    width: 268px;
+    height: 268px;
+  }
+
+  footer .container {
+    display: flex;
+    flex-direction: row;
+  }
+}
