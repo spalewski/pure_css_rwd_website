@@ -1,0 +1,77 @@
+@media (min-width: 768px) {
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 26%;
+  }
+
+  .nav-links a {
+      white-space: nowrap;
+  }
+
+  nav .wrapper {
+  display: none;
+}
+
+  .container {
+    width: 90%;
+  }
+
+  .landing-page-shadow .container {
+    height: 38%;
+  }
+
+  .landing-page h1,
+  .landing-page p {
+    width: 60%;
+  }
+
+  .about-employee {
+    flex-direction: row;
+  }
+
+  .about-employee-desc p {
+    padding: 0 0 0 0;
+  }
+
+  .about-employee-desc {
+    width: calc(100% - 260px);
+    text-align: left;
+  }
+
+  .about-employee:nth-of-type(even) {
+    flex-direction: row-reverse;
+  }
+
+  .about-employee:nth-of-type(even) .about-employee-desc {
+    text-align: right;
+  }
+
+  .offer h1 {
+    padding: 3% 0%;
+    color: #fff;
+    font-size: 36px;
+}
+
+  .offer-description {
+    width: 90%;
+    grid-template-columns: 1fr 1fr;
+    gap: 63px 63px;
+    padding: 5% 0 7.5%;
+  }
+
+  .offer-boxes-item-dot {
+    width: 22px;
+    height: 22px;
+}
+
+  .grid-item {
+    width: 268px;
+    height: 268px;
+  }
+
+  footer .container {
+    display: flex;
+    flex-direction: row;
+  }
+}
